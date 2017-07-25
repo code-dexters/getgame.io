@@ -1,0 +1,54 @@
+@media (max-width: 1199px){
+	.header-sec .navbar-nav>li{width:230px;}
+	 .rgt-das-set{width:50%;}
+	 .top-bx-1{width:32%;}
+	 .top-bx-2{width:36%;}
+	 .invest-plan-sec ul li{width:100%; padding-left:10px;}
+	 .dinomass-img{position:static; width:30%;}
+	 .dinomass-img img{max-width:100%;}
+	 .dino-dtl-lft{padding-right:0; padding-left:20px;}
+	 .blue-btn{min-width:100%;}
+}
+
+
+@media (max-width: 991px){
+ .header-sec .navbar-nav>li{width:auto;}
+ .header-sec .navbar-nav>li>a{padding:40px 20px; font-size:20px;}
+ .lft-crumb{width:50%;}
+ .header-sec:before{transform:skewX(0deg); -webkit-transform:skewX(0deg); -moz-transform:skewX(0deg); -ms-transform:skewX(0deg); bottom:0;}
+ .top-bx-1{width:100%; display:inline-block;}
+ .all-gme a{width:100%;}
+ .list-game-view ul li{font-size:16px;}
+ .list-game-view ul li a small{font-size:16px;}
+ 
+}
+
+@media screen and (max-width: 767px){
+ .list-game-view ul li{font-size:20px;}
+ .list-game-view ul li a small{font-size:20px;}
+ .header-sec .navbar-header{width:100%;}
+ .header-sec .navbar-brand{width:217px;}
+ .navbar-default .navbar-toggle{margin-top:23px; margin-right:0; border:none;}
+ .navbar-default .navbar-toggle .icon-bar{width:26px; background-color:#fff;}
+ .navbar-default .navbar-collapse{position:absolute; left:0; right:0; top:100%; z-index:100; margin:0;}
+ .navbar-default .navbar-collapse ul{margin-top:0;}
+ .header-sec .navbar-nav>li.last small{width:100%;}
+ .header-sec .navbar-nav>li.last small .dropdown-menu{width:100%;}
+ .header-sec .navbar-nav>li>a{padding:20px 10px;}
+ .header-sec .navbar-nav>li.last small>a{padding:20px 10px;}
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color:transparent}
+ .header-sec:before{width:280px;}
+  .lft-crumb{width:100%;}
+  .rgt-das-set{width:100%;}
+  .top-perf-bx .table-responsive .table>thead>tr>th{width:auto;}
+}
+
+@media (max-width: 640px){
+	.dinomass-img{width:230px;}
+	.dino-dtl-lft{width:100%;}
+	.dino-progress-rgt{max-width:100%;}
+}
+
+@media (max-width: 360px){
+	.header-sec:before{width:250px;}
+}
